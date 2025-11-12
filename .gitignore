@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Virtualenvs
+venv/
+venv0/
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Unity / THOR 빌드 산출물(원하면 유지)
+build/
+unity/builds/
+*.x86_64
+*.app
+*.apk
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local data dumps
+house_views_all/
